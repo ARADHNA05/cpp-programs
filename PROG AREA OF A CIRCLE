@@ -1,0 +1,18 @@
+// find AREA OF A CIRCLE
+#include <iostream>
+using namespace std;
+int main() {
+    float a,r;
+    cout<<"ENTER RADIUS OF A CIRCLE:";
+    cin>>r;
+    
+    a=3.14*r*r;
+    
+    cout<<"AREA OF CIRCLE:"<<a;
+    
+    
+    
+    
+
+    return 0;
+}

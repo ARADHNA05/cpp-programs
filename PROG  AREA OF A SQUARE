@@ -1,0 +1,14 @@
+//find the AREA OF SQuare:
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a,b;
+    cout <<"ENTER THE SIDE OF A SQUARE: ";
+    cin >> a;
+    
+    b=a*a;
+    cout <<"THE AREA F SQUARE: "<<b;
+    return 0;
+}

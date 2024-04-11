@@ -1,0 +1,20 @@
+// find volume of cylinder
+#include <iostream>
+using namespace std;
+int main() {
+    float a,r,h;
+    cout<<"ENTER RADIUS OF CYLINDER:";
+    cin>>r;
+        cout<<"ENTER HEIGHT OF CLINDER: ";
+        cin>>h;
+    
+    a=3.14*(r*r)*h;
+    
+    cout<<"VOLUME OF CYLINDER:"<<a;
+    
+    
+    //113.04
+    
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+// FIND THE SIMPLE INTEREST
+#include <iostream>
+using namespace std;
+int main() {
+    int p,r,t,si;
+    cout<<"ENTER THE PRINCIPAL AMOUNT:";
+    cin>>p;
+    cout<<"ENTER THE RATE OF INTEREST:";
+    cin>>r;
+    cout<<"ENTER THE TIME PERIOD:";
+    cin>>t;
+    
+    si=(p*r*t)/100;
+    cout<<"SIMPLE INTEREST VALUE BE:"<<si;
+    
+    
+
+    return 0;
+}

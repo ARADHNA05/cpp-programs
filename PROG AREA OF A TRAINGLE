@@ -1,0 +1,16 @@
+//AREA OF A TRAINGLE
+#include <iostream>
+using namespace std;
+int main() {
+    
+  float area, b, h;
+   cout <<"ENTER THE HEIGHT: ";
+   cin >>h;
+   cout <<"ENTER THE BREATH: ";
+   cin >>b;
+   
+  area=1.0/2*b*h;
+  cout<<"THE AREA OF TRIANGLE: "<<area;
+  
+  return 0;
+}

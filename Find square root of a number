@@ -1,0 +1,19 @@
+//Q11 Find square root of a number
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+    int a;
+    float b;
+    
+    cout<<"ENTER THE INTEGER NUBER: ";
+    cin>>a;
+    //formula
+    b=sqrt(a);
+    cout<<"THE SQUARE ROOT OF "<<a <<" IS: "<<b;
+    
+    
+    return 0;
+    
+}

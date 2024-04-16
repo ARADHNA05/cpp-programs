@@ -1,0 +1,22 @@
+//Q10 Read temperature fahrenheit to Celsius and Celsius to fahrenheit c=(f-32)/1.8
+#include <iostream>
+using namespace std;
+
+int main() {
+    float cel, fah;
+    // fah to cel
+    cout<<"ENTER THE TEMPERATURE IN FAHRENHEIT: ";
+    cin>>fah;
+    // logic
+    cel=(fah-32)*5/9;
+    cout<<"\n calculated temperature in celsisus : "<<cel;
+    
+    //cel to fah
+    cout<<"\nENETR THE TEMPERATURE IN CELSIUS: ";
+    cin>>cel;
+    //logic F = (9/5 × °C) + 32.
+    fah=(cel*9/5)+32;
+    cout<<"\n calculated temp in fah: " <<fah;
+
+    return 0;
+}

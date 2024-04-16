@@ -1,0 +1,21 @@
+//Q7.input time in seconds and convert it into hr,mins,secs
+#include <iostream>
+using namespace std;
+int main() {
+    int sec, hr, min;
+    
+    cout<<"Enter the input in seconds:";
+    cin>>sec;
+    
+    //logic implement
+    
+    hr =sec/3600;
+    sec =sec%3600;
+    
+    min =sec/60;
+    sec =sec%60;
+    
+    cout<<"THE TIME ACCORDING TO THE GIVEN INPUT:"<<hr<<"hr,"<<min<<"min,"<<sec<<"sec";
+   
+    return 0;
+}

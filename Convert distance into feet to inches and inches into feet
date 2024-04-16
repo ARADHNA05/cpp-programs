@@ -1,0 +1,20 @@
+//Q9 Convert distance into feet to inches and inches into feet
+#include <iostream>
+using namespace std;
+
+int main(){
+    float ft, inch;
+    //feet to inches 
+    cout<<"Enter the input in foot to calculate inches: ";
+    cin>>ft;
+    //logic (1foot=12inches)
+    inch=ft*12; 
+    cout<<inch<<" inch."; 
+    //inches into feet
+    cout<<"\nEnter the input in inches to calculate foot: ";
+    cin>>inch;
+    //logic 
+    ft=inch/12;
+    cout<<ft<<" ft.";
+    
+}
